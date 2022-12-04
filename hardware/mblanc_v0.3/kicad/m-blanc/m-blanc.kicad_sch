@@ -1,0 +1,112 @@
+(kicad_sch (version 20221126) (generator eeschema)
+
+  (uuid df0828d1-873b-4d9d-b5b9-8291a1354f40)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (text "30/Nov/2022" (at 206.502 194.056 0)
+    (effects (font (size 1.4 1.4)) (justify left bottom))
+    (uuid 49c9ed46-95db-4bef-a323-03e3d76ae2fd)
+  )
+  (text "0.3\n" (at 268.732 194.056 0)
+    (effects (font (size 1.4 1.4) (thickness 0.28) bold) (justify left bottom))
+    (uuid b75c8e4e-3ad5-4439-a0a9-0be9284c7372)
+  )
+  (text "MBLANC" (at 187.198 190.5 0)
+    (effects (font (size 1.8 1.8) (thickness 0.36) bold) (justify left bottom))
+    (uuid e178cbcc-0ecb-41d4-b70e-286bc8a2cffc)
+  )
+
+  (sheet (at 177.8 45.72) (size 33.02 24.13) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 255 231 132 1.0000))
+    (uuid 5d22f332-052c-49de-8f7d-aaca4e762754)
+    (property "Sheetname" "4-PCIe" (at 177.8 45.0084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "schematic/4-PCIe.kicad_sch" (at 177.8 70.4346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "m-blanc"
+        (path "/df0828d1-873b-4d9d-b5b9-8291a1354f40" (page "#"))
+      )
+    )
+  )
+
+  (sheet (at 92.71 45.72) (size 36.83 24.13) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 255 231 132 1.0000))
+    (uuid 98101b04-c1fe-40bb-b3db-fdcbb0986294)
+    (property "Sheetname" "2-MEMORY" (at 92.71 45.0084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "schematic/2-MEMORY.kicad_sch" (at 92.71 70.4346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "m-blanc"
+        (path "/df0828d1-873b-4d9d-b5b9-8291a1354f40" (page "#"))
+      )
+    )
+  )
+
+  (sheet (at 135.89 45.72) (size 34.29 24.13) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 255 231 132 1.0000))
+    (uuid ada3be61-6f4c-4cc6-bee8-7dc785d4c7aa)
+    (property "Sheetname" "3-FIFO" (at 135.89 45.0084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "schematic/3-FIFO.kicad_sch" (at 135.89 70.4346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "m-blanc"
+        (path "/df0828d1-873b-4d9d-b5b9-8291a1354f40" (page "#"))
+      )
+    )
+  )
+
+  (sheet (at 218.44 45.72) (size 33.02 24.13) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 255 231 132 1.0000))
+    (uuid ce0b1b7a-2bbd-481a-81ff-c945ca853658)
+    (property "Sheetname" "5-QSFP" (at 218.44 45.0084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "schematic/5-QSFP.kicad_sch" (at 218.44 70.4346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "m-blanc"
+        (path "/df0828d1-873b-4d9d-b5b9-8291a1354f40" (page "#"))
+      )
+    )
+  )
+
+  (sheet (at 46.99 45.72) (size 34.29 24.13) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 255 231 132 1.0000))
+    (uuid e78c91d1-4f3e-4b0b-b76e-b9efaf657884)
+    (property "Sheetname" "1-POWER" (at 46.99 45.0084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "schematic/1-POWER.kicad_sch" (at 46.99 70.4346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "m-blanc"
+        (path "/df0828d1-873b-4d9d-b5b9-8291a1354f40" (page "#"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "#"))
+  )
+)
