@@ -1,6 +1,6 @@
 <img src="docs/images/MBLANC-LOGO.png" width="200"/>
 
-**m**ini **B**oard **LA**b a**n**d **C**ompanion
+**m**ini **B**oard **La**b a**n**d **C**ompanion
 
 ![DIAG](docs/images/MBLANC-DIAG.png)
 
